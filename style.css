@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
+
+#chest{
+    background-color: green;
+}
+
+#loot{
+    background-color: blue;
+}
+
+#chest, #loot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    trasn
+}
